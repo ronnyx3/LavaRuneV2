@@ -1,0 +1,25 @@
+<manifest>
+    <main-class>com.rong.bots.lavaRuneV2.lavaRuneV2</main-class>
+    <name>Lava RuneV2</name>
+    <tag-line>Whatsapp me if there's ANY bugs</tag-line><!--Max of 50 chars-->
+    <description>To poop or not to poop?</description><!--Max of 110 chars-->
+    <version>1.0.0</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>Runecrafting</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>LAVA</internal-id>
+    <!--The rest are optional-->
+    <open-source>false</open-source>
+    <hidden>false</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>private</access>
+    <tags>
+        <tag>Skilling</tag>
+    </tags>
+    <resources>
+        <resource>path/to/file.png</resource>
+    </resources>
+</manifest>
